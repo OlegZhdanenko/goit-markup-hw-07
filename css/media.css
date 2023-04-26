@@ -2,6 +2,8 @@
     .container {
         width: 428px;
     }
+    .modal {
+        width: 392px;}
     .cust-list>li {
         flex-basis: calc((100% - 16px) / 2);
     }
@@ -25,9 +27,11 @@
     }
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
-       
+        width: 768px; 
     }
+    .modal {
+            width: 408px;
+        }
     .hero-subject{
         max-width: 496px;
         font-size: 56px;
@@ -131,13 +135,25 @@
     .footer-wrapper {
         padding: 0 108px;
         gap: 72px;
-    }}
+    }
+    .contacts-items{
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+ }
+}
 @media screen and (min-width: 1200px) {
     .container {
         width: 1158px;
     }
+        .nav-link{
+            font-size: 16px;
+            line-height: 1.5;
+        }
     .hero-section{
         max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
     .hero-subject{
         margin-bottom: 48px;
@@ -151,6 +167,16 @@
     .team-list{
         flex-wrap:nowrap;
     }
+    .future-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+        .future-text{
+            font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+        }
     .future-icon-svg{
         display: flex;
     }
@@ -170,7 +196,8 @@
         align-items: stretch;
                 }
     .footer-wrap {
-        margin-right: 120px; }
+        margin-right: 120px;
+    margin-bottom: unset; }
         .footer-soc-wrap{margin-right: 80px;
 
         }
